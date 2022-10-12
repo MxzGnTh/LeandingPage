@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	scroll-behavior: smooth;
+}
+
+@media (max-width: 767px) {
+	.backgcuarta {
+		visibility: hidden;
+	}
+	.textoCuartaseccion {
+		visibility: visible;
+	}
+	.backgtercera {
+		visibility: hidden;
+	}
+	.textoTerceraseccion {
+		visibility: visible;
+	}
+	.backgsegunda {
+		visibility: hidden;
+	}
+	.textoSegundaseccion {
+		visibility: visible;
+	}
+}
+
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 575.98px) {
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+.img_logoHeader {
+  
+}
