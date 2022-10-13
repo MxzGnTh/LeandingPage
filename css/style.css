@@ -10,7 +10,7 @@
 	scroll-behavior: smooth;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 570px) {
 	.backgcuarta {
 		visibility: hidden;
 	}
@@ -20,13 +20,13 @@
 	.backgtercera {
 		visibility: hidden;
 	}
-	.textoTerceraseccion {
+	.contenedorSeccion3 {
 		visibility: visible;
 	}
 	.backgsegunda {
 		visibility: hidden;
 	}
-	.textoSegundaseccion {
+	.contenedorSeccion2 {
 		visibility: visible;
 	}
 }
@@ -47,6 +47,137 @@ body {
 	font-family: "Montserrat", sans-serif;
 }
 
-.img_logoHeader {
-  
+header.principal {
+	background-image: url(/assets/img/header_img.png);
+	text-align: center;
+	color: #ffff;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover;
+	height: 800px;
+}
+
+.container-textoheader {
+	font-family: "Montserrat", sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: left;
+	text-shadow: 2px 2px #000000;
+}
+.img_play {
+	width: 50px;
+}
+.logo-principal {
+	max-width: 50px;
+	max-height: 100%;
+}
+
+.texto-principal {
+	text-align: center;
+}
+
+hr {
+	color: #000000;
+	border: 1px dashed;
+}
+
+.textotitulos2 {
+	font-size: 28px;
+}
+
+.textosubs2 {
+	font-size: 28px;
+}
+.textosubs5{
+	font-size: 28px;
+}
+
+.contenedor-texto {
+	font-size: 30px;
+}
+
+.texto_secciones{
+	font-size: 20px;
+}
+
+.backgsegunda {
+	background-image: url(/assets/img/img_segundaSeccion.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 180px;
+}
+
+.backgtercera {
+	background-image: url(/assets/img/img_seccion3.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: contain;
+}
+
+.backgcuarta {
+	background-image: url(/assets/img/img_seccion4.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: contain;
+}
+
+
+.imgback{
+	color: #fff;
+	background-repeat: no-repeat;
+	background-image: url(/assets/img/img1_loquemas.jpg);
+	height:600px;
+	width:600px;
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: contain;
+	
+	
+}
+.imgback2{
+	color: #fff;
+	background-repeat: no-repeat;
+	background-image: url(/assets/img/img2_loquemas.jpg);
+	height:600px;
+	width:600px;
+	background-position: center center;
+	background-size: contain;
+}
+.imgback3{
+	color: #fff;
+	background-repeat: no-repeat;
+	background-image: url(/assets/img/img3_loquemas.jpg);
+	height:600px;
+	width:600px;
+	background-position: center center;
+	background-size: contain;
+}
+.imgback4{
+	color: #fff;
+	background-repeat: no-repeat;
+	background-image: url(/assets/img/img4_loquemas.jpg);
+	height:600px;
+	width:600px;
+	background-position: center center;
+	background-size: contain;
+}
+
+
+.imgroi{
+	width:50px;
+}
+.imgrop{
+	width:150px
+}
+
+
+.ContenedortextosCarousel{
+	font-size: 10x;
+}
+
+.carouselSeccion{
+	margin-left:100px;
+	width: 100%;
+	
 }
